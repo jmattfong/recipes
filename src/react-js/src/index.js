@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Router from "./components/Router";
 import * as serviceWorker from './serviceWorker';
+
+// Set the font. TODO is there more to do? https://material-ui.com/customization/theming/
+import 'fontsource-roboto';
+
+// Set the CSS theme?
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
