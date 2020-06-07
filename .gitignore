@@ -1,3 +1,7 @@
+# Don't add our recipes to git
+recipes/
+images/
+
 # Compiled class file
 *.class
 

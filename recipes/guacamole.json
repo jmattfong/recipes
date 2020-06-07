@@ -1,0 +1,91 @@
+{
+    "publisher": "Matt Fong",
+    "title": "Matthew's Guacamole",
+    "source_url": "/recipe/asdf",
+    "recipe_id": "guacamole",
+    "image_url": "/static/images/guacamole.jpg",
+    "publisher_url": "example.com",
+
+    "subtitle": "Easy, Fresh, and Healthy",
+    "description": "Delicious and healthy guacamole made with fresh veggies and mexican spices. Best served with fresh tortilla chips.",
+    "time": "15 mins",
+    "servings": 6,
+    "ingredients": {
+        "Avocado": "4",
+        "Red Onion": "1/2",
+        "Tomato": "1",
+        "Jalepeno": "1",
+        "Garlic": "3 cloves",
+        "Cilantro": "3 Tbsp chopped",
+        "Lime": "1",
+        "Mexican Spice Blend*": "1 Tbsp"
+    },
+    "steps": [
+        {
+            "step": "Prepare the ingredients",
+            "image": "/static/images/guacamole-1.jpg",
+            "steps": [
+                {
+                    "step": "Wash and dry the fresh produce."
+                },
+                {
+                    "step": "Cut open avaocados, remove seed, and use a spoon to scoop into a large bowl"
+                },
+                {
+                    "step": "Small dice the tomato and red onion. Deseed and small dice jalepeno."
+                },
+                {
+                    "step": "Quarter lime."
+                },
+                {
+                    "step": "Use a garlic press to make garlic paste. Alternatively, finely chop garlic and smash with side of knife."
+                },
+                {
+                    "step": "Chop cilantro."
+                }
+            ]
+        },
+        {
+            "step": "Mash and mix the ingredients",
+            "image": "/static/images/guacamole-2.jpg",
+            "steps": [
+                {
+                    "step": "Use a fork to mash avocado, leaving slightly chunkier than desired end product."
+                },
+                {
+                    "step": "Add in the chopped tomato, red onion, jalepeno, garlic, and cilantro."
+                },
+                {
+                    "step": "Add half the lime juice."
+                },
+                {
+                    "step": "Mix ingedients together."
+                }
+            ]
+        },
+        {
+            "step": "Spice and season to taste",
+            "image": "/static/images/guacamole-3.jpg",
+            "steps": [
+                {
+                    "step": "Season with salt and pepper, and a small amount of your mexican spice blend."
+                },
+                {
+                    "step": "Taste. Add more salt, pepper, spices, and lime to taste."
+                },
+                {
+                    "step": "Serve with fresh tortilla chips!"
+                }
+            ]
+        }
+    ],
+    "images": [
+        "/static/images/guacamole.jpg",
+        "/static/images/guacamole-1.jpg",
+        "/static/images/guacamole-2.jpg",
+        "/static/images/guacamole-3.jpg",
+        "/static/images/guacamole-4.jpg"],
+    "notes": [
+        "* Mexican Spice Blend: Chile Powder, Smoked Paprika, Garlic Powder, Onion Powder, Ground Cumin"
+    ]
+}

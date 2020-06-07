@@ -13,7 +13,8 @@ class App extends Component {
     e.preventDefault();
 
     // TODO replace this with an API calls
-    const api_call = await fetch(``);
+    const api_call = await fetch(`/api/recipe?q=${recipeName}&limit=12`);
+
 
     const data = await api_call.json();
     if (data.recipes != null) {
