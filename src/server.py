@@ -13,6 +13,10 @@ REACT_BUILD_DIR = 'react-js/build'
 def catch_all(path):
     return send_from_directory(REACT_BUILD_DIR, path)
 
+@app.route('/recipe/<id>')
+def render_recipe(id):
+    return send_from_directory(REACT_BUILD_DIR, 'index.html')
+
 @app.route('/api/recipe/<id>')
 def get_recipe(id):
     recipe = load_recipe_from_json(f'recipes/{id}.json')

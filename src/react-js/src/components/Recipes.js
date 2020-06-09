@@ -17,14 +17,11 @@ const Recipes = props => (
                 <h5 className="recipes__title">
                   { recipe.title.length < 20 ? `${recipe.title}` : `${recipe.title.substring(0, 25)}...` }
                 </h5>
-                <p className="recipes__subtitle">Publisher: <span>
-                  { recipe.publisher }
-                </span></p>
+                <p className="recipes__subtitle">{recipe.time} - <span>Serves { recipe.servings }</span></p>
               </div>
               <button className="recipe_buttons">
                 <Link to={{
-                  pathname: `/recipe/${recipe.recipe_id}`,
-                  state: { recipe: recipe.title }
+                  pathname: `/recipe/${recipe.recipe_id}`
                 }}>View Recipe</Link>
               </button>
           </div>

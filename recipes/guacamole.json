@@ -1,24 +1,24 @@
 {
     "publisher": "Matt Fong",
-    "title": "Matthew's Guacamole",
-    "source_url": "/recipe/asdf",
+    "title": "Matt's Guacamole",
+    "source_url": "/recipe/guacamole",
     "recipe_id": "guacamole",
     "image_url": "/static/images/guacamole.jpg",
-    "publisher_url": "example.com",
+    "publisher_url": "http://example.com",
 
     "subtitle": "Easy, Fresh, and Healthy",
     "description": "Delicious and healthy guacamole made with fresh veggies and mexican spices. Best served with fresh tortilla chips.",
     "time": "15 mins",
     "servings": 6,
     "ingredients": {
-        "Avocado": "4",
-        "Red Onion": "1/2",
+        "Avocados": "4",
+        "Red Onions": "1/2",
         "Tomato": "1",
-        "Jalepeno": "1",
+        "Jalepeño": "1",
         "Garlic": "3 cloves",
         "Cilantro": "3 Tbsp chopped",
         "Lime": "1",
-        "Mexican Spice Blend*": "1 Tbsp"
+        "Mexican Spice Blend *": "1 Tbsp"
     },
     "steps": [
         {
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "step": "Mash and mix the ingredients",
+            "step": "Combine in a bowl",
             "image": "/static/images/guacamole-2.jpg",
             "steps": [
                 {
