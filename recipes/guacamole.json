@@ -1,12 +1,12 @@
 {
     "publisher": "Matt Fong",
-    "title": "Matt's Guacamole",
+    "title": "Mateo's Guacamole",
     "source_url": "/recipe/guacamole",
     "recipe_id": "guacamole",
     "image_url": "/static/images/guacamole.jpg",
     "publisher_url": "http://example.com",
 
-    "subtitle": "Easy, Fresh, and Healthy",
+    "subtitle": "Easy, Fresh, and Unhealthy",
     "description": "Delicious and healthy guacamole made with fresh veggies and mexican spices. Best served with fresh tortilla chips.",
     "time": "15 mins",
     "servings": 6,
